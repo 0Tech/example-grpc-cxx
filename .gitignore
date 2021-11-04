@@ -1,0 +1,5 @@
+# Ignore CMake build output directory
+/build/
+
+# Ignore backup files
+*~
