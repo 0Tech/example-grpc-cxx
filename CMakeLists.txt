@@ -16,3 +16,4 @@ FetchContent_MakeAvailable(gRPC)
 include(cmake/AddGrpc.cmake)
 
 add_subdirectory(protobuf)
+add_subdirectory(server)
