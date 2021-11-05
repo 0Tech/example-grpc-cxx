@@ -12,3 +12,5 @@ FetchContent_Declare(
   GIT_REPOSITORY https://github.com/grpc/grpc.git
   GIT_TAG v${GRPC_VERSION})
 FetchContent_MakeAvailable(gRPC)
+
+include(cmake/AddGrpc.cmake)
