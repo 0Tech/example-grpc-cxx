@@ -17,3 +17,4 @@ include(cmake/AddGrpc.cmake)
 
 add_subdirectory(protobuf)
 add_subdirectory(server)
+add_subdirectory(client)
